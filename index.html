@@ -1,100 +1,13 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu portfólio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-    <nav class="navegacao">
-        <!-- Logo -->
-        <div class="logo">
-            <img src="img/LogoIcon.svg" alt="Icone do portfólio" class="logo-icone">
-            <span class="logo-text">Dev{Aos40}</span>
-        </div>
-        <ul class="menu">
-            <li>
-                <a href="#inicio" class="menu-link">Início</a>
-            </li>
-            <li>
-                <a href="#sobre" class="menu-link">Sobre</a>
-            </li>
-            <li>
-                <a href="#projetos" class="menu-link">Projetos</a>
-            </li>
-            <li>
-                <a href="#contatos" class="menu-link">Contatos</a>
-            </li>
-        </ul>
-    </nav>
-
-    <main id="inicio" class="cabecalho">
-        <img src="./img/IMG_FOTO.jpg" alt="Foto de perfil" class="foto-perfil">
-        <h1>João Paulo</h1>
-        <p>Engenheiro da Computação</p>
-        <p class="sub-titulo">Iniciante apaixonado por tecnologia, transformando dados em insights e ideias em código. Sempre aprendendo, sempre evoluindo.</p>
-        <p></p>
-    </main>
-
-    <section id="sobre" class="sobre">
-        <h2 class="sobre-titulo">Sobre mim</h2>
-        <div class="sobre-descricao">
-            <p class="sobre-paragrafo">
-                Sou um entusiasta da tecnologia e estou no início da minha jornada almejando ser desenvolvedor backend e engenheiro de dados. Minha paixão é descobrir padrões em dados e criar soluções que fazem a diferença.
-                Atualmente, estou focado em aprender Python, SQL e ferramentas de visualização de dados. Cada projeto é uma oportunidade de crescer e aplicar novos conhecimentos.
-                Quando não estou codando, você pode me encontrar explorando novos datasets, lendo sobre tecnologia ou trabalhando em projetos pessoais.
-            </p>
-        </div>
-    </section>
-
-    <section id="projetos" class="projetos">
-        <h2 class="projetos-titulo">Meus Projetos</h2>
-        <div class="projetos-cards">
-
-            <div class="projetos-card">
-                <img src="./img/SistemaEscolar.jpg" alt="Sistema Escolar" class="projetos-imagem">
-                <div class="texto-projetos">
-                    <h3 class="info-projetos">Projeto 1</h3>
-                    <p class="paragrafos-projetos">Sistema escolar para cadastro.</p>
-                </div>
-            </div>
-            <div class="projetos-card">
-                <img src="./img/fotomedidor.jpg" alt="Fotômetro" class="projetos-imagem">
-                <div class="texto-projetos">
-                    <h3 class="info-projetos">Projeto 2</h3>
-                    <p class="paragrafos-projetos">Descrição do projeto 2.</p>
-                </div>
-            </div>
-            <div class="projetos-card">
-                <img src="./img/CadastroClientes.jpg" alt="Cadastro de Clientes" class="projetos-imagem">
-                <div class="texto-projetos">
-                    <h3 class="info-projetos">Projeto 3</h3>
-                    <p class="paragrafos-projetos">Descrição do projeto 3.</p>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <section id="contatos" class="contatos">
-        <h2 class="contatos-titulo"> Entre em Contato</h2>
-        <form class="formulario-contato id=" formulario">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
-
-            <button type="submit" class="enviar">Enviar</button>
-        </form>
-    </section>
-
-</body>
-
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>site-portfolio</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

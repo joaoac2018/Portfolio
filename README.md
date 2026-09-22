@@ -1,38 +1,19 @@
-# Olá, eu sou o João Paulo! 👋
+# React + Vite
 
-### Estudante de Ciência de Dados | Aspirante a Engenheiro de Dados
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Seja bem-vindo ao meu portfólio! Aqui você encontrará os projetos que desenvolvo durante a minha graduação e meus estudos autônomos. Estou em transição de carreira, focando em **Engenharia e Análise de Dados** 
-mais tambem estou estudando e desenvolvendo alguns projetos usando a programação.
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## 🛠️ Habilidades Técnicas e Conhecimentos Básicos em:
+## React Compiler
 
-### **Linguagens e Frameworks**
-* **Python:** Manipulação de dados, automação e lógica de programação.
-* **Pandas:** Limpeza, tratamento e análise exploratória de dados.
-* **C#:** Desenvolvimento de lógica e estrutura de sistemas.
-* **React Native & Expo:** Criação de interfaces interativas e projetos mobile.
+The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
 
-### **Conhecimentos em Foco**
-* **Dados:** Web Scraping, Georreferenciamento e algoritmos de busca.
-* **Acadêmico:** Cálculo, Sistemas Operacionais e Redes de Computadores.
-* **Ferramentas:** Git, GitHub, VS Code e bibliotecas de manipulação de dados.
+Note: This will impact Vite dev & build performances.
+You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
 
----
+## Expanding the ESLint configuration
 
-## 🎓 Formação Acadêmica
-* **Bacharelado em Ciência de Dados** – UNIVESP (Em curso).
-* **Técnico em Informática** – (Concluído).
-
----
-
-## 🎯 Objetivos
-Atualmente, busco aprofundar meus conhecimentos em pipelines de dados (**ETL**) e ferramentas de visualização, visando atuar profissionalmente com Engenharia de Dados a curto prazo.
-
----
-## 📫 Contato
-
-* **LinkedIn:** João Paulo(https://www.linkedin.com/in/jpaulocruz285/)
-* **E-mail:** joaopaulo-itujp@hotmail.com
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
